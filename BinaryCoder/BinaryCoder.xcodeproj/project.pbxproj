@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94DB5CA16C624E300977933 /* Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E94DB5C816C624E300977933 /* Encoder.cpp */; };
+		E9A3A4CD170DE7480013FF50 /* DESWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9A3A4CB170DE7480013FF50 /* DESWrapper.cpp */; };
+		E9A3A4D0170E938D0013FF50 /* CrypticStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9A3A4CE170E938D0013FF50 /* CrypticStream.cpp */; };
+		E9DDB452170DDBE3007B8720 /* deskey.c in Sources */ = {isa = PBXBuildFile; fileRef = E9DDB450170DDBE3007B8720 /* deskey.c */; };
+		E9DDB453170DDBE3007B8720 /* desport.c in Sources */ = {isa = PBXBuildFile; fileRef = E9DDB451170DDBE3007B8720 /* desport.c */; };
+		E9DDB462170DDD94007B8720 /* BinaryCoder.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9F42FBF16C3B85F00781BBF /* BinaryCoder.1 */; };
+		E9DDB468170DDDC3007B8720 /* gensp.c in Sources */ = {isa = PBXBuildFile; fileRef = E9DDB455170DDCE0007B8720 /* gensp.c */; };
+		E9DDB46A170DDF46007B8720 /* spbox.c in Sources */ = {isa = PBXBuildFile; fileRef = E9DDB469170DDF46007B8720 /* spbox.c */; };
+		E9F42FBE16C3B85F00781BBF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9F42FBD16C3B85F00781BBF /* main.cpp */; };
+		E9F42FC016C3B85F00781BBF /* BinaryCoder.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9F42FBF16C3B85F00781BBF /* BinaryCoder.1 */; };
+		E9F42FCA16C3B8C000781BBF /* Stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9F42FC616C3B8C000781BBF /* Stream.cpp */; };
+		E9F42FCB16C3B8C000781BBF /* Decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9F42FC816C3B8C000781BBF /* Decoder.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9DDB461170DDD94007B8720 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E9DDB462170DDD94007B8720 /* BinaryCoder.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E9F42FB716C3B85F00781BBF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E9F42FC016C3B85F00781BBF /* BinaryCoder.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E94DB5C816C624E300977933 /* Encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Encoder.cpp; sourceTree = "<group>"; };
+		E94DB5C916C624E300977933 /* Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encoder.h; sourceTree = "<group>"; };
+		E9A3A4CB170DE7480013FF50 /* DESWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DESWrapper.cpp; sourceTree = "<group>"; };
+		E9A3A4CC170DE7480013FF50 /* DESWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESWrapper.h; sourceTree = "<group>"; };
+		E9A3A4CE170E938D0013FF50 /* CrypticStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrypticStream.cpp; sourceTree = "<group>"; };
+		E9A3A4CF170E938D0013FF50 /* CrypticStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrypticStream.h; sourceTree = "<group>"; };
+		E9DDB44F170DDBE3007B8720 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		E9DDB450170DDBE3007B8720 /* deskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deskey.c; sourceTree = "<group>"; };
+		E9DDB451170DDBE3007B8720 /* desport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = desport.c; sourceTree = "<group>"; };
+		E9DDB455170DDCE0007B8720 /* gensp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gensp.c; sourceTree = "<group>"; };
+		E9DDB466170DDD94007B8720 /* gensp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gensp; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DDB469170DDF46007B8720 /* spbox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spbox.c; sourceTree = "<group>"; };
+		E9F42FB916C3B85F00781BBF /* BinaryCoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryCoder; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F42FBD16C3B85F00781BBF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E9F42FBF16C3B85F00781BBF /* BinaryCoder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BinaryCoder.1; sourceTree = "<group>"; };
+		E9F42FC616C3B8C000781BBF /* Stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stream.cpp; sourceTree = "<group>"; };
+		E9F42FC716C3B8C000781BBF /* Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		E9F42FC816C3B8C000781BBF /* Decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Decoder.cpp; sourceTree = "<group>"; };
+		E9F42FC916C3B8C000781BBF /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		E9F42FCC16C3BC8D00781BBF /* STDHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDHeaders.h; sourceTree = "<group>"; };
+		E9F42FCD16C3BE9800781BBF /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9DDB460170DDD94007B8720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F42FB616C3B85F00781BBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F42FAE16C3B85F00781BBF = {
+			isa = PBXGroup;
+			children = (
+				E9F42FBC16C3B85F00781BBF /* BinaryCoder */,
+				E9F42FBA16C3B85F00781BBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F42FBA16C3B85F00781BBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F42FB916C3B85F00781BBF /* BinaryCoder */,
+				E9DDB466170DDD94007B8720 /* gensp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F42FBC16C3B85F00781BBF /* BinaryCoder */ = {
+			isa = PBXGroup;
+			children = (
+				E9F42FBD16C3B85F00781BBF /* main.cpp */,
+				E9F42FBF16C3B85F00781BBF /* BinaryCoder.1 */,
+				E9F42FCC16C3BC8D00781BBF /* STDHeaders.h */,
+				E9F42FCD16C3BE9800781BBF /* Constants.h */,
+				E9F42FC616C3B8C000781BBF /* Stream.cpp */,
+				E9F42FC716C3B8C000781BBF /* Stream.h */,
+				E9F42FC816C3B8C000781BBF /* Decoder.cpp */,
+				E9F42FC916C3B8C000781BBF /* Decoder.h */,
+				E94DB5C816C624E300977933 /* Encoder.cpp */,
+				E94DB5C916C624E300977933 /* Encoder.h */,
+				E9DDB44F170DDBE3007B8720 /* des.h */,
+				E9DDB450170DDBE3007B8720 /* deskey.c */,
+				E9DDB451170DDBE3007B8720 /* desport.c */,
+				E9DDB469170DDF46007B8720 /* spbox.c */,
+				E9DDB455170DDCE0007B8720 /* gensp.c */,
+				E9A3A4CB170DE7480013FF50 /* DESWrapper.cpp */,
+				E9A3A4CC170DE7480013FF50 /* DESWrapper.h */,
+				E9A3A4CE170E938D0013FF50 /* CrypticStream.cpp */,
+				E9A3A4CF170E938D0013FF50 /* CrypticStream.h */,
+			);
+			path = BinaryCoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9DDB457170DDD94007B8720 /* gensp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DDB463170DDD94007B8720 /* Build configuration list for PBXNativeTarget "gensp" */;
+			buildPhases = (
+				E9DDB458170DDD94007B8720 /* Sources */,
+				E9DDB460170DDD94007B8720 /* Frameworks */,
+				E9DDB461170DDD94007B8720 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gensp;
+			productName = BinaryCoder;
+			productReference = E9DDB466170DDD94007B8720 /* gensp */;
+			productType = "com.apple.product-type.tool";
+		};
+		E9F42FB816C3B85F00781BBF /* BinaryCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F42FC316C3B85F00781BBF /* Build configuration list for PBXNativeTarget "BinaryCoder" */;
+			buildPhases = (
+				E9F42FB516C3B85F00781BBF /* Sources */,
+				E9F42FB616C3B85F00781BBF /* Frameworks */,
+				E9F42FB716C3B85F00781BBF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinaryCoder;
+			productName = BinaryCoder;
+			productReference = E9F42FB916C3B85F00781BBF /* BinaryCoder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F42FB016C3B85F00781BBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = hailong;
+			};
+			buildConfigurationList = E9F42FB316C3B85F00781BBF /* Build configuration list for PBXProject "BinaryCoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9F42FAE16C3B85F00781BBF;
+			productRefGroup = E9F42FBA16C3B85F00781BBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F42FB816C3B85F00781BBF /* BinaryCoder */,
+				E9DDB457170DDD94007B8720 /* gensp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9DDB458170DDD94007B8720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DDB468170DDDC3007B8720 /* gensp.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F42FB516C3B85F00781BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F42FBE16C3B85F00781BBF /* main.cpp in Sources */,
+				E9F42FCA16C3B8C000781BBF /* Stream.cpp in Sources */,
+				E9F42FCB16C3B8C000781BBF /* Decoder.cpp in Sources */,
+				E94DB5CA16C624E300977933 /* Encoder.cpp in Sources */,
+				E9DDB452170DDBE3007B8720 /* deskey.c in Sources */,
+				E9DDB453170DDBE3007B8720 /* desport.c in Sources */,
+				E9DDB46A170DDF46007B8720 /* spbox.c in Sources */,
+				E9A3A4CD170DE7480013FF50 /* DESWrapper.cpp in Sources */,
+				E9A3A4D0170E938D0013FF50 /* CrypticStream.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E9DDB464170DDD94007B8720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = gensp;
+			};
+			name = Debug;
+		};
+		E9DDB465170DDD94007B8720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = gensp;
+			};
+			name = Release;
+		};
+		E9F42FC116C3B85F00781BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E9F42FC216C3B85F00781BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E9F42FC416C3B85F00781BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9F42FC516C3B85F00781BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9DDB463170DDD94007B8720 /* Build configuration list for PBXNativeTarget "gensp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DDB464170DDD94007B8720 /* Debug */,
+				E9DDB465170DDD94007B8720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F42FB316C3B85F00781BBF /* Build configuration list for PBXProject "BinaryCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F42FC116C3B85F00781BBF /* Debug */,
+				E9F42FC216C3B85F00781BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F42FC316C3B85F00781BBF /* Build configuration list for PBXNativeTarget "BinaryCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F42FC416C3B85F00781BBF /* Debug */,
+				E9F42FC516C3B85F00781BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F42FB016C3B85F00781BBF /* Project object */;
+}
